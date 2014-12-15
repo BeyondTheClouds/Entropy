@@ -59,7 +59,7 @@ public class EntropyProperties extends Properties {
     /**
      * If the first solution will be selected.
      */
-	public final static String FIRST_SOLUTION = "entropy.first_solution";
+	public final static String FIRST_SOLUTION = "entropy.firstSolution";
 
 
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -134,7 +134,7 @@ public class EntropyProperties extends Properties {
 	}
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	//Methods related to getting information about if the first_solution mode is enabled or not.
+	//Methods related to getting information about if the firstSolution mode is enabled or not.
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	public static boolean isFirstSolutionEnabled(){
@@ -142,7 +142,7 @@ public class EntropyProperties extends Properties {
 	}
 	
 	public static void main(String[] args){
-		System.out.println("first_solution mode enabled: " + EntropyProperties.isFirstSolutionEnabled());
+		System.out.println("firstSolution mode enabled: " + EntropyProperties.isFirstSolutionEnabled());
 	}
 
 
