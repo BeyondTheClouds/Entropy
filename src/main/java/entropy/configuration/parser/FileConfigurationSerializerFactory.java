@@ -95,7 +95,7 @@ public final class FileConfigurationSerializerFactory {
      * @return {@code true} if the operation succeed, {@code false} if no serializer is associated to the file extension
      * @throws IOException if an error occurred while writing the file
      */
-    public boolean write(DefaultConfiguration cfg, String path) throws IOException {
+    public boolean write(Configuration cfg, String path) throws IOException {
         FileConfigurationSerializer s = getSerializer(path);
         if (s == null) {
             return false;
